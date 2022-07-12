@@ -327,3 +327,33 @@ section.about .container .read-more {
 section.about .container .read-more:hover {
     text-decoration: underline;
 }
+
+/*-- ============================ Skils Section ============================ --> */
+
+
+section.skills .container {
+    width: 50%;
+}
+
+
+section.skills .skill .head {
+    background: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-white);
+    padding: 1.6rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+section.skills .skill .head h1 {
+    color: var(--color-white);
+}
+
+
+section.skills .skill .head .left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
