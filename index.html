@@ -25,8 +25,8 @@
                     <li><a href="#portfolio">Portfolio</a> </li>
                     <li><a href="#contact">Contact</a> </li>
                 </ul>
-                <button><span class="material-symbols-sharp">menu</span></button>
-                <button><span class="material-symbols-sharp">close</span></button>    
+                <button id="menu-btn"><span class="material-symbols-sharp" >menu</span></button>
+                <button id="close-btn"><span class="material-symbols-sharp" >close</span></button>    
 
             </div>
         </nav>
@@ -121,6 +121,7 @@
     </section>
 
     <section class="recent-work" id="portfolio">
+       <div class="container">
         <h4>My Works</h4>
         <h1>My Most Recent Solo Projects</h1>
         <div class="project">
@@ -130,9 +131,73 @@
             <h2>To Do List App</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum magnam nostrum nulla repellat vitae alias ex maxime quisquam id. Temporibus mollitia quas eum vero officiis, dolore ullam voluptatibus labore delectus.</p>
             <div class="action">
-                <a href=""></a>
+                <a href="" target="_blank">Link</a>
+            </div>
+        </div>  
+        <div class="project">
+            <div class="thubmnail">
+
+            </div>
+            <h2>Javascript Animation</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum magnam nostrum nulla repellat vitae alias ex maxime quisquam id. Temporibus mollitia quas eum vero officiis, dolore ullam voluptatibus labore delectus.</p>
+            <div class="action">
+                <a href="" target="_blank" >Link</a>
+            </div>
+        </div>
+        <div class="project">
+            <div class="thubmnail">
+
+            </div>
+            <h2>Movie Site(API Fetching)</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum magnam nostrum nulla repellat vitae alias ex maxime quisquam id. Temporibus mollitia quas eum vero officiis, dolore ullam voluptatibus labore delectus.</p>
+            <div class="action">
+                <a href="" target="_blank">Link</a>
+            </div>
+        </div>
+       </div>    
+    </section>
+
+    <!-- ============================ Skills END ============================ -->
+
+    <section class="contact" id="contact">
+        <div class="over">
+            <div class="container">
+                <h1>Contact</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam non vero quod dolores, nam eum.</p>
+                <form>
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <input type="text" name="Subject" placeholder="Subject">
+                    <textarea name="Message" placeholder="Message" required></textarea>
+                    <input type="submit" value="Submit" class="btn btn-primary" >
+                </form>
             </div>
         </div>
     </section>
+
+    <!-- ============================ Contact END ============================ -->
+     
+     <footer>
+        <div class="container">
+            <a href="#"><h3>ED</h3></a>
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="#skills">Skills</a> </li>
+                <li><a href="#portfolio">Portfolio</a> </li>
+                <li><a href="#contact">Contact</a> </li>
+            </ul>
+            <div class="socials">
+                <a href="https://facebook.com" target="_blank"><i class="uil uil-facebook-f"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="uil uil-linkedin"></i></i></a>
+                <a href="https://github.com" target="_blank"><i class="uil uil-github"></i></i></i></a>       
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright &copy;
+        </div>
+     </footer>   
+
+     <script src="script.js"></script>
 </body>
 </html>
