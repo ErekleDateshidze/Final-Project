@@ -363,6 +363,16 @@ section.skills .skill .head .left {
     gap: 1rem;
 }
 
+section.skills .skill .item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    padding: 1.6rem;
+    background: var(--color-light);
+    margin-bottom: 0.3rem;
+}
+
 /*-- ============================ Portfolio Section ============================ --> */
 
 section.recent-work h1 {
@@ -399,7 +409,6 @@ section.recent-work .projects .project .action a:hover {
 /*-- ============================ Contact Section ============================ --> */
 
 section.contact {
-    background: url('./Assets/img/feed-6.jpg') no-repeat center center/cover;
     padding: 0;
     max-width: 100vw;
 }
@@ -551,14 +560,16 @@ footer .copyright {
 
     /*-- ============================ Nav Bar ============================ --> */
     nav {
-        box-sizing: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
     }
+
+
 
     nav h3 {
         margin-left: 1rem;
     }
 
-    nav.container {
+    nav .container {
         width: 100%;
     }
 
@@ -570,7 +581,8 @@ footer .copyright {
         width: 16rem;
         height: 100vh;
         background: var(--color-white);
-        box-sizing: 1rem 0 2rem var(--color-primary-light);
+        box-shadow: 1rem 0 2rem var(--color-primary-light);
+        display: none;
     }
 
     nav ul li {
