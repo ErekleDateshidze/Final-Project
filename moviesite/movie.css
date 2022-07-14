@@ -68,7 +68,7 @@ main {
     color: #eee;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0.5rem 1rem 1rem;
     letter-spacing: 0.5px;
 }
@@ -83,6 +83,7 @@ main {
     padding: 0.25rem 0.5rem;
     border-radius: 3px;
     font-weight: bold;
+    text-align: center;
 }
 
 .movie-info span.green {
