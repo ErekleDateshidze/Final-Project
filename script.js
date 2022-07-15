@@ -49,3 +49,20 @@ readMoreBtn.addEventListener('click', () => {
         readMoreBtn.textContent = "Show More";
     }
 })
+
+
+// Porfolio 
+
+
+var portfolio = {
+    name: "RecentProjects",
+    projects: [
+        { name: "To Do List App" },
+        { name: "Drink Water App" },
+        { name: "Movie Site(API Fetching)" }
+    ]
+}
+
+document.getElementById("todo").innerHTML = portfolio.projects[0].name;
+document.getElementById("drinkwater").innerHTML = portfolio.projects[1].name;
+document.getElementById("moviesite").innerHTML = portfolio.projects[2].name;
